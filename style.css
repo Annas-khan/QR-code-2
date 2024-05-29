@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+}
+
+
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}   
+
+
+img {
+    max-width: 20rem;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
