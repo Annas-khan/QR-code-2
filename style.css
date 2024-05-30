@@ -17,16 +17,24 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }   
 
 
 img {
-    max-width: 20rem;
-    margin: 1.5rem;
+    max-width: 19rem;
+    margin: 0.7rem;
     border-radius: 0.5rem;
+}
+
+h3 {
+    text-align: center;
+    margin: 0.5rem;
 }
 
 p {
     color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 1rem;
 }
